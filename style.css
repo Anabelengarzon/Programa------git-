@@ -1,0 +1,103 @@
+/* Estilo general del cuerpo */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #fce4ec;
+  color: #333;
+}
+
+/* Encabezado de la página */
+header {
+  background-color: #ba68c8;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Logo pequeño */
+.logo {
+  width: 40px;
+  vertical-align: middle;
+}
+
+/* Menú de navegación */
+nav {
+  background-color: #f8bbd0;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+nav a {
+  color: #880e4f;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+/* Contenido principal */
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Pie de página */
+footer {
+  background-color: #ec407a;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Imágenes del catálogo */
+.catalogo {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.producto-img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+/* Formulario (registro y contacto) */
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  text-align: left;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-top: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: #ec407a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #d81b60;
+}
